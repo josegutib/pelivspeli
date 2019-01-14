@@ -27,6 +27,10 @@ app.post('/competencias/:id/voto', controllers.votosController.post)
 
 app.get('/competencias/:id/resultados', controllers.resultadosController.get)
 
+app.get('/competencias/:id', controllers.reiniciarVotosController.get)
+
+app.delete('/competencias/:id', controllers.reiniciarVotosController.delete)
+
 
 app.listen(PORT, () => {
   console.log(`App listening on port ${PORT}`);
