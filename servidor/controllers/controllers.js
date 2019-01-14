@@ -6,5 +6,6 @@ module.exports = {
   statusController: require('./statusController'),
   competenciaPeliculasController: require('./competenciaPeliculasController'),
   votosController: require('./votosController'),
-  resultadosController: require('./resultadosController')
+  resultadosController: require('./resultadosController'),
+  reiniciarVotosController: require('./reiniciarVotosController')
 }
